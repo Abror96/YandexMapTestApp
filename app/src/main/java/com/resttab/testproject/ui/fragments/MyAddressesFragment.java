@@ -51,6 +51,13 @@ public class MyAddressesFragment extends Fragment implements MyAddressesContract
 
     @Override
     public void getAddressesSuccess(List<Address> addresses) {
+        if (addresses.size() > 0) {
+            binding.noData.setVisibility(View.GONE);
+            binding.myAddressesRecycler.setVisibility(View.VISIBLE);
+        } else {
+            binding.noData.setVisibility(View.VISIBLE);
+            binding.myAddressesRecycler.setVisibility(View.GONE);
+        }
         if (adapter == null) adapter = new MyAddressesAdapter(addresses, this);
         else adapter.updateList(addresses);
         binding.myAddressesRecycler.setAdapter(adapter);
