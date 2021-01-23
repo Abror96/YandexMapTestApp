@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="my_addresses">Мои адреса</string>
+    <string name="map">Карта</string>
+    <string name="add_address_to_favs">Добавить адрес в избранное</string>
+    <string name="search">Поиск</string>
+    <string name="open_till">\"Открыто \"</string>
+    <string name="add_to_favorite_title">Добавить адрес в избранное</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="do_u_rly_want_to_delete">Вы действительно хотите удалить адрес?</string>
+    <string name="delete">Удалить</string>
+    <string name="title_field_must_be_filled">Поле для назвазвания должно быть заполненным</string>
+    <string name="address_is_added">Адрес успешно добавлен</string>
+</resources>
